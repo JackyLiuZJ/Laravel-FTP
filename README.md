@@ -12,7 +12,7 @@ Add the package to your `composer.json` and run `composer update`.
 
     {
         "require": {
-            "JackyLiu/ftp": "~2.0"
+            "JackyLiu/ftp": "~1.0"
         }
     }
 
