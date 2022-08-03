@@ -1,6 +1,7 @@
 <?php namespace JackyLiu\Ftp;
 
 use Illuminate\Support\ServiceProvider;
+use Illuminate\Foundation\AliasLoader;
 
 class FtpServiceProvider extends ServiceProvider
 {
