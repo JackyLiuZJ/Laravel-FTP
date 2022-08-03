@@ -1,6 +1,7 @@
 {
     "name": "jackyliu/ftp",
     "description": "Wannabe successor of anchu/ftp package for Laravel",
+    "license": "MIT",
     "type": "composer-plugin",
     "require": {
         "illuminate/support": "^8"
@@ -15,5 +16,12 @@
             "name": "JackyLiuZJ",
             "email": "liumuyu1991@gmail.com"
         }
-    ]
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "JackyLiu\\Ftp\\FtpServiceProvider"
+            ]
+        }
+    },
 }
