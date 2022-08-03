@@ -1,6 +1,6 @@
 <?php
 
-namespace Anchu\Ftp;
+namespace JackyLiu\Ftp;
 
 use App\Http\Models\SftpT;
 
@@ -70,7 +70,7 @@ class FtpManager {
      * Make the FTP connection instance.
      *
      * @param  string  $name
-     * @return \Anchu\Ftp\Ftp
+     * @return \JackyLiu\Ftp\Ftp
      */
     protected function makeConnection($name)
     {

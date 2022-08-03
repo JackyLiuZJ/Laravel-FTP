@@ -1,4 +1,4 @@
-<?php namespace Anchu\Ftp\Facades;
+<?php namespace JackyLiu\Ftp\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

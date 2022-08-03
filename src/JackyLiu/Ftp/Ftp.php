@@ -1,4 +1,4 @@
-<?php namespace Anchu\Ftp;
+<?php namespace JackyLiu\Ftp;
 
 class Ftp {
 
