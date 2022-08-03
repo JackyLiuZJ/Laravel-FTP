@@ -31,12 +31,14 @@ class FtpServiceProvider extends ServiceProvider
     public function register()
     {
         $this->app->singleton('ftp', function ($app) {
-            return new FtpManager($app);
+            $return = $app->make('JackyLiu\Ftp\FtpManager');
+
+            return $return;
         });
 
         $this->app->booting(function () {
-            $loader = \Illuminate\Foundation\AliasLoader::getInstance();
-            $loader->alias('FTP', 'JackyLiu\Ftp\Facades\Ftp');
+            $loader = AliasLoader::getInstance();
+            $loader->alias('Madzipper', 'JackyLiu\Ftp\Facades\Ftp');
         });
     }
 
@@ -47,6 +49,6 @@ class FtpServiceProvider extends ServiceProvider
      */
     public function provides()
     {
-        return array('ftp');
+        return ['ftp'];
     }
 }
