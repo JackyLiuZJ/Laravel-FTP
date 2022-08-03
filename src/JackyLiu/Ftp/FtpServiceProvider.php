@@ -1,4 +1,4 @@
-<?php namespace Anchu\Ftp;
+<?php namespace JackyLiu\Ftp;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -36,7 +36,7 @@ class FtpServiceProvider extends ServiceProvider
 
         $this->app->booting(function () {
             $loader = \Illuminate\Foundation\AliasLoader::getInstance();
-            $loader->alias('FTP', 'Anchu\Ftp\Facades\Ftp');
+            $loader->alias('FTP', 'JackyLiu\Ftp\Facades\Ftp');
         });
     }
 

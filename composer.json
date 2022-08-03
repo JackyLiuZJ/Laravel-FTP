@@ -1,0 +1,19 @@
+{
+    "name": "jackyliu/ftp",
+    "description": "Wannabe successor of anchu/ftp package for Laravel",
+    "type": "composer-plugin",
+    "require": {
+        "illuminate/support": "^8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jackyliu\\Ftp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "JackyLiuZJ",
+            "email": "liumuyu1991@gmail.com"
+        }
+    ]
+}
